@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atharva Yadav</title>
+    <title>Welcome to my website</title>
 </head>
-    
 
 <link rel="stylesheet" href="index.css">
 <script  src="scripts.js"></script>
@@ -26,6 +25,9 @@
     function redirectToSpotify() {
         window.location.href = 'https://open.spotify.com/playlist/2cEn76NEzhd7pcUS1sQBez'; 
       }
+    function redirectToIg() {
+        window.location.href = 'https://www.instagram.com/athxrva15/?next=%2F'; 
+      }
 
   </script>
 
@@ -37,14 +39,14 @@
     
     <section class="navd">
         <img class="logo" src="Alogo.png" alt="">
-        <img class="github" src="github.png" alt="" onclick="redirectToGitHub()">
+        <img class="github" src="github.png" alt="" onclick="redirectToGitHub()" width="30px">
         <img class="linkedin" src="linkedin.png" alt="" onclick="redirectToLinkdin()">
-        <img class="linkedin" src="linkedin.png" alt="" onclick="redirectToLinkdin()">
+        <img class="Ig" src="insta.png" alt="" onclick="redirectToIg()">
         <button class="navbar-toggle" onclick="toggleNavbar()"><img src="assets/menu.png" alt="" height="64px"></button>
          <ul class="change-color">
             <li><a href="skills.html">SKILLS</li>
             <li><a href="projects.html">PROJECTS</a></li>
-            <li><a href="hobbies.html">HOBBIES</a></li>
+            <li><a href="hobbies.html">BLOG</a></li>
             <li><a href="contact.html">CONTACT</a></li>
          </ul>
 
@@ -54,7 +56,7 @@
         <ul>
             <li><a href="skills.html">SKILLS</a></li>
             <li><a href="projects.html">PROJECTS</a></li>
-            <li><a href="hobbies.html">HOBBIES</a></li>
+            <li><a href="hobbies.html">BLOG</a></li>
             <li><a href="contact.html">CONTACT</a></li>
          </ul>
     </section>
@@ -71,12 +73,18 @@
     </section>
 
     <section class="primary" id="section1">
-        <h1>Atharva Yadav</h1>
-        <h2>Web-Developer</h2>
+        <div>
+            <h1>Atharva Yadav</h1>
+            <h2>Web-Developer</h2>
+        </div>
+        <div class="seeds">
+            <img src="assets/seeds.jpg" alt="" width="80%">
+        </div>
+
     </section>
 
     <section class="skills"  id="section2">
-        <h2>Languages I know</h2>
+        <h2>Stats?</h2>
         <div class="row">
             <div class="skills-col">
                 <img src="linkedin.png" alt="" height="30%">
